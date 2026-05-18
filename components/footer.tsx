@@ -8,6 +8,7 @@ export function Footer() {
   const footerLinks = [
     { href: "#about", label: t.nav.about },
     { href: "#services", label: t.nav.services },
+    { href: "#process", label: t.nav.process },
     { href: "#referenzen", label: t.nav.projects },
     { href: "#contact", label: t.nav.contact },
   ]
