@@ -11,7 +11,7 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Image */}
           <div className="relative">
-            <div className="aspect-[4/5] overflow-hidden rounded-lg">
+            <div className="aspect-4/5 overflow-hidden rounded-lg">
               <img
                 src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80"
                 alt="Architecture office work"
