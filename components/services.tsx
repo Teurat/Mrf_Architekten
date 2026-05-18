@@ -1,9 +1,9 @@
 "use client"
 
-import { Compass, FileCheck, Ruler, Lightbulb } from "lucide-react"
+import { PenTool, Stamp, Layers, Telescope } from "lucide-react"
 import { useLanguage } from "@/lib/language-context"
 
-const serviceIcons = [Compass, FileCheck, Ruler, Lightbulb]
+const serviceIcons = [PenTool, Stamp, Layers, Telescope]
 
 export function Services() {
   const { t } = useLanguage()
@@ -33,8 +33,8 @@ export function Services() {
                 key={index}
                 className="group p-8 bg-card rounded-lg border border-border hover:border-foreground/20 hover:shadow-lg transition-all duration-300"
               >
-                <div className="w-12 h-12 rounded-lg bg-secondary flex items-center justify-center group-hover:bg-accent transition-colors duration-300">
-                  <Icon className="w-6 h-6 text-foreground" />
+                <div className="w-14 h-14 rounded-lg bg-secondary flex items-center justify-center group-hover:bg-accent transition-colors duration-300">
+                  <Icon className="w-6 h-6 text-foreground" strokeWidth={1.5} />
                 </div>
                 <h3 className="mt-6 text-xl font-medium text-foreground">
                   {service.title}
