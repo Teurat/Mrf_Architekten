@@ -1,9 +1,9 @@
 "use client"
 
-import { Compass, FileCheck, Ruler, Users, Home, Lightbulb } from "lucide-react"
+import { Compass, FileCheck, Ruler, Lightbulb } from "lucide-react"
 import { useLanguage } from "@/lib/language-context"
 
-const serviceIcons = [Compass, FileCheck, Ruler, Users, Home, Lightbulb]
+const serviceIcons = [Compass, FileCheck, Ruler, Lightbulb]
 
 export function Services() {
   const { t } = useLanguage()
@@ -25,7 +25,7 @@ export function Services() {
         </div>
 
         {/* Services Grid */}
-        <div className="mt-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="mt-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {t.services.items.map((service, index) => {
             const Icon = serviceIcons[index]
             return (

@@ -1,9 +1,9 @@
 "use client"
 
-import { MessageSquare, Target, MapPin, Briefcase, Palette, ListChecks } from "lucide-react"
+import { MessageSquare, Target, MapPin, Palette } from "lucide-react"
 import { useLanguage } from "@/lib/language-context"
 
-const featureIcons = [MessageSquare, Target, MapPin, Briefcase, Palette, ListChecks]
+const featureIcons = [MessageSquare, Target, MapPin, Palette]
 
 export function WhyUs() {
   const { t } = useLanguage()
@@ -22,7 +22,7 @@ export function WhyUs() {
         </div>
 
         {/* Features Grid */}
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
           {t.whyUs.features.map((feature, index) => {
             const Icon = featureIcons[index]
             return (

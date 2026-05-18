@@ -25,8 +25,8 @@ export function Process() {
         <div className="mt-16 relative">
           {/* Connection Line - Desktop */}
           <div className="hidden lg:block absolute top-8 left-0 right-0 h-0.5 bg-border" />
-          
-          <div className="grid md:grid-cols-5 gap-8">
+
+          <div className="grid md:grid-cols-4 gap-8">
             {t.process.steps.map((step, index) => (
               <div key={index} className="relative text-center">
                 {/* Number Circle */}
@@ -35,7 +35,7 @@ export function Process() {
                     {String(index + 1).padStart(2, "0")}
                   </span>
                 </div>
-                
+
                 {/* Content */}
                 <h3 className="mt-6 text-lg font-medium text-foreground">
                   {step.title}

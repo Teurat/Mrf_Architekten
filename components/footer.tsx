@@ -8,7 +8,7 @@ export function Footer() {
   const footerLinks = [
     { href: "#about", label: t.nav.about },
     { href: "#services", label: t.nav.services },
-    { href: "#projects", label: t.nav.projects },
+    { href: "#referenzen", label: t.nav.projects },
     { href: "#contact", label: t.nav.contact },
   ]
 
@@ -19,7 +19,7 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <a href="#" className="text-2xl font-medium tracking-tight">
-              Mrf Architekten
+              Swiss Arch-Concept
             </a>
             <p className="mt-4 text-primary-foreground/70 max-w-sm leading-relaxed">
               {t.footer.tagline}
@@ -53,13 +53,8 @@ export function Footer() {
             <ul className="mt-6 space-y-4 text-primary-foreground/80">
               <li>{t.contact.locationValue}</li>
               <li>
-                <a href="mailto:info@mrf-architekten.ch" className="hover:text-primary-foreground transition-colors">
-                  info@mrf-architekten.ch
-                </a>
-              </li>
-              <li>
-                <a href="tel:+41XXXXXXXX" className="hover:text-primary-foreground transition-colors">
-                  +41 XX XXX XX XX
+                <a href="mailto:info@swiss-arch-concept.ch" className="hover:text-primary-foreground transition-colors">
+                  info@swiss-arch-concept.ch
                 </a>
               </li>
             </ul>
@@ -69,7 +64,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="mt-16 pt-8 border-t border-primary-foreground/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-primary-foreground/60">
-            © {new Date().getFullYear()} Mrf Architekten. {t.footer.copyright}
+            © {new Date().getFullYear()} Swiss Arch-Concept. {t.footer.copyright}
           </p>
           <div className="flex gap-6 text-sm text-primary-foreground/60">
             <a href="#" className="hover:text-primary-foreground transition-colors">

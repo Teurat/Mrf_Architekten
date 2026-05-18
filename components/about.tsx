@@ -34,15 +34,9 @@ export function About() {
               <p>{t.about.p2}</p>
               <p>{t.about.p3}</p>
             </div>
-            <div className="mt-10 flex gap-12">
-              <div>
-                <span className="text-4xl font-serif font-medium text-foreground">3+</span>
-                <p className="mt-1 text-sm text-muted-foreground">{t.about.experience}</p>
-              </div>
-              <div>
-                <span className="text-4xl font-serif font-medium text-foreground">CH</span>
-                <p className="mt-1 text-sm text-muted-foreground">{t.about.location}</p>
-              </div>
+            <div className="mt-10">
+              <span className="text-4xl font-serif font-medium text-foreground">CH</span>
+              <p className="mt-1 text-sm text-muted-foreground">{t.about.location}</p>
             </div>
           </div>
         </div>

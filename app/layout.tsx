@@ -14,9 +14,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Mrf Architekten | Architekturbüro Schweiz',
+  title: 'Swiss Arch-Concept | Architekturbüro Schweiz',
   description: 'Ein junges Architekturbüro in der Schweiz – mit klaren Ideen, präziser Planung und dem Anspruch, Räume mit Qualität zu schaffen.',
-  keywords: ['Architektur', 'Architekturbüro', 'Schweiz', 'Bauplanung', 'Innenraumgestaltung'],
+  keywords: ['Architektur', 'Architekturbüro', 'Schweiz', 'Bauplanung', 'Architekturplanung'],
 }
 
 export default function RootLayout({
